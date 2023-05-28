@@ -1,0 +1,24 @@
+Algoritmo Isla
+{
+//Definir variables
+Entero a,b,p;       //a=1627,b=1976,p=periodo de capitalización
+Flotante t;
+//Bloque de instrucciones
+Imprimir (“Este programa calculara el interés compuesto anualmente de una inversión”);
+Imprimir (“Digite el año inicial de la inversión: 1627”);
+Leer (a);
+Imprimir (“Digite el año final de la inversión: 1976”);
+Leer (b);
+Imprimir (“Digite el periodo de capitalización que hubo entre cada año”);
+Leer (p);
+Si (a!=1627||b!=1976) entonces {
+Imprimir (“Error, digite el año correcto”);
+} 
+Si (a==1627&&b==1976) entonces {
+t=24((1+(0.06/p))**(p*349))
+} //Fin del si
+Imprimir (“El interés compuesto obtenido anualmente es:”,t);
+} //Fin del algoritmo
+
+
+
